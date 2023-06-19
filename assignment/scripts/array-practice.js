@@ -94,7 +94,6 @@ console.log(favoriteFoods);
 //     in reverse alphabetical order. Log the array.
 
 let alphaOrder = favoriteFoods.sort();
-console.log(alphaOrder);
 let alphaReverse = alphaOrder.reverse();
 console.log(alphaReverse);
 
@@ -115,5 +114,5 @@ console.log(combine);
 
 // The way i did it before i actually researched the "concat" method
 combine = []
-combine = favoriteFoods + animalArray;
+combine = favoriteFoods + " " + animalArray;
 console.log(combine);
